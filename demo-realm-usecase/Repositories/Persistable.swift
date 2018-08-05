@@ -19,5 +19,5 @@ protocol Persistable {
 typealias PropertyValuePair = (key: String, value: Any)
 
 protocol PropertyValueType {
-    var propertyValuePair: PropertyValuePair { get set }
+    var propertyValuePair: PropertyValuePair { get }
 }
