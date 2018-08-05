@@ -112,6 +112,7 @@
 		E1479C082116DB5C00E5119D /* demo-realm-usecase */ = {
 			isa = PBXGroup;
 			children = (
+				E1479C2D21174F7F00E5119D /* Entities */,
 				E1479C292116F41E00E5119D /* Repositories */,
 				E1479C092116DB5C00E5119D /* AppDelegate.swift */,
 				E1479C0B2116DB5C00E5119D /* ViewController.swift */,
@@ -138,6 +139,13 @@
 				E1479C2A2116F47200E5119D /* Persistable.swift */,
 			);
 			path = Repositories;
+			sourceTree = "<group>";
+		};
+		E1479C2D21174F7F00E5119D /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
