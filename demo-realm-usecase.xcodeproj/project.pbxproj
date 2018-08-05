@@ -23,6 +23,8 @@
 		E1479C332117578B00E5119D /* RealmContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1479C312117578B00E5119D /* RealmContainer.swift */; };
 		E1479C352117AEE700E5119D /* WriteTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1479C342117AEE700E5119D /* WriteTransition.swift */; };
 		E1479C362117AEE700E5119D /* WriteTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1479C342117AEE700E5119D /* WriteTransition.swift */; };
+		E1479C382117AF6700E5119D /* FetchedResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1479C372117AF6700E5119D /* FetchedResults.swift */; };
+		E1479C392117AF6700E5119D /* FetchedResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1479C372117AF6700E5119D /* FetchedResults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,7 @@
 		E1479C2E21174FC400E5119D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		E1479C312117578B00E5119D /* RealmContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmContainer.swift; sourceTree = "<group>"; };
 		E1479C342117AEE700E5119D /* WriteTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteTransition.swift; sourceTree = "<group>"; };
+		E1479C372117AF6700E5119D /* FetchedResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchedResults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +151,7 @@
 				E1479C2A2116F47200E5119D /* Persistable.swift */,
 				E1479C312117578B00E5119D /* RealmContainer.swift */,
 				E1479C342117AEE700E5119D /* WriteTransition.swift */,
+				E1479C372117AF6700E5119D /* FetchedResults.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -379,6 +383,7 @@
 				E1479C2F21174FC400E5119D /* User.swift in Sources */,
 				E1479C2B2116F47200E5119D /* Persistable.swift in Sources */,
 				E1479C352117AEE700E5119D /* WriteTransition.swift in Sources */,
+				E1479C382117AF6700E5119D /* FetchedResults.swift in Sources */,
 				E1479C0C2116DB5C00E5119D /* ViewController.swift in Sources */,
 				E1479C0A2116DB5C00E5119D /* AppDelegate.swift in Sources */,
 				E1479C322117578B00E5119D /* RealmContainer.swift in Sources */,
@@ -389,6 +394,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1479C392117AF6700E5119D /* FetchedResults.swift in Sources */,
 				E1479C362117AEE700E5119D /* WriteTransition.swift in Sources */,
 				E1479C2C2116F47700E5119D /* Persistable.swift in Sources */,
 				E1479C1F2116DB5F00E5119D /* demo_realm_usecaseTests.swift in Sources */,
