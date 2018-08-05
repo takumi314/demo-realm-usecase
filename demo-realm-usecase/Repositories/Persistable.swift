@@ -10,7 +10,7 @@ import Foundation
 import RealmSwift
 
 protocol Persistable {
-    associatedtype ManagedObject
+    associatedtype ManagedObject: RealmSwift.Object
     associatedtype PropertyType: PropertyValueType
     var managed: ManagedObject { get }
     init(managed object: ManagedObject)

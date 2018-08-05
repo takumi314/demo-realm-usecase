@@ -19,6 +19,8 @@
 		E1479C2C2116F47700E5119D /* Persistable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1479C2A2116F47200E5119D /* Persistable.swift */; };
 		E1479C2F21174FC400E5119D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1479C2E21174FC400E5119D /* User.swift */; };
 		E1479C3021174FC400E5119D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1479C2E21174FC400E5119D /* User.swift */; };
+		E1479C322117578B00E5119D /* RealmContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1479C312117578B00E5119D /* RealmContainer.swift */; };
+		E1479C332117578B00E5119D /* RealmContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1479C312117578B00E5119D /* RealmContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,7 @@
 		E1479C202116DB5F00E5119D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1479C2A2116F47200E5119D /* Persistable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistable.swift; sourceTree = "<group>"; };
 		E1479C2E21174FC400E5119D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E1479C312117578B00E5119D /* RealmContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				E1479C2A2116F47200E5119D /* Persistable.swift */,
+				E1479C312117578B00E5119D /* RealmContainer.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -372,6 +376,7 @@
 				E1479C2B2116F47200E5119D /* Persistable.swift in Sources */,
 				E1479C0C2116DB5C00E5119D /* ViewController.swift in Sources */,
 				E1479C0A2116DB5C00E5119D /* AppDelegate.swift in Sources */,
+				E1479C322117578B00E5119D /* RealmContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +387,7 @@
 				E1479C2C2116F47700E5119D /* Persistable.swift in Sources */,
 				E1479C1F2116DB5F00E5119D /* demo_realm_usecaseTests.swift in Sources */,
 				E1479C3021174FC400E5119D /* User.swift in Sources */,
+				E1479C332117578B00E5119D /* RealmContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
