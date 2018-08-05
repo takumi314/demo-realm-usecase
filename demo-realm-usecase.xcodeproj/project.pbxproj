@@ -15,6 +15,8 @@
 		E1479C112116DB5F00E5119D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1479C102116DB5F00E5119D /* Assets.xcassets */; };
 		E1479C142116DB5F00E5119D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1479C122116DB5F00E5119D /* LaunchScreen.storyboard */; };
 		E1479C1F2116DB5F00E5119D /* demo_realm_usecaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1479C1E2116DB5F00E5119D /* demo_realm_usecaseTests.swift */; };
+		E1479C2B2116F47200E5119D /* Persistable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1479C2A2116F47200E5119D /* Persistable.swift */; };
+		E1479C2C2116F47700E5119D /* Persistable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1479C2A2116F47200E5119D /* Persistable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,7 @@
 		E1479C1A2116DB5F00E5119D /* demo-realm-usecaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "demo-realm-usecaseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1479C1E2116DB5F00E5119D /* demo_realm_usecaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demo_realm_usecaseTests.swift; sourceTree = "<group>"; };
 		E1479C202116DB5F00E5119D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1479C2A2116F47200E5119D /* Persistable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,7 @@
 		E1479C082116DB5C00E5119D /* demo-realm-usecase */ = {
 			isa = PBXGroup;
 			children = (
+				E1479C292116F41E00E5119D /* Repositories */,
 				E1479C092116DB5C00E5119D /* AppDelegate.swift */,
 				E1479C0B2116DB5C00E5119D /* ViewController.swift */,
 				E1479C0D2116DB5C00E5119D /* Main.storyboard */,
@@ -126,6 +130,14 @@
 				E1479C202116DB5F00E5119D /* Info.plist */,
 			);
 			path = "demo-realm-usecaseTests";
+			sourceTree = "<group>";
+		};
+		E1479C292116F41E00E5119D /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				E1479C2A2116F47200E5119D /* Persistable.swift */,
+			);
+			path = Repositories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -344,6 +356,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1479C2B2116F47200E5119D /* Persistable.swift in Sources */,
 				E1479C0C2116DB5C00E5119D /* ViewController.swift in Sources */,
 				E1479C0A2116DB5C00E5119D /* AppDelegate.swift in Sources */,
 			);
@@ -353,6 +366,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1479C2C2116F47700E5119D /* Persistable.swift in Sources */,
 				E1479C1F2116DB5F00E5119D /* demo_realm_usecaseTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -510,7 +524,10 @@
 				DEVELOPMENT_TEAM = 73CEKQYV9L;
 				INFOPLIST_FILE = "demo-realm-usecase/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.takumi.demo-realm-usecase";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -527,7 +544,10 @@
 				DEVELOPMENT_TEAM = 73CEKQYV9L;
 				INFOPLIST_FILE = "demo-realm-usecase/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.takumi.demo-realm-usecase";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -544,7 +564,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 73CEKQYV9L;
 				INFOPLIST_FILE = "demo-realm-usecaseTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.takumi.demo-realm-usecaseTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -562,7 +586,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 73CEKQYV9L;
 				INFOPLIST_FILE = "demo-realm-usecaseTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.takumi.demo-realm-usecaseTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
